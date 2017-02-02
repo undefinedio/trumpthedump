@@ -7,12 +7,34 @@ body {
     margin: 0;
     overflow: hidden;
 
+    .logo.white {
+        display: none;
+    }
+
     &.make-it-rain {
         background: black;
 
         .rain {
             opacity: 1;
             display: block;
+        }
+
+        .logo {
+            display: none;
+        }
+
+        .logo.white {
+            display: block;
+        }
+
+        header {
+            .stars {
+                background: black;
+            }
+        }
+
+        footer {
+            color: white;
         }
     }
 }
