@@ -47,6 +47,21 @@ header {
         height: 70px;
         display: block;
         margin-top: 20px;
+        margin-bottom: 1em;
+        max-width: 500px;
+        width: 75%;
+    }
+
+    .stars {
+        background: white;
+        width: 200px;
+        margin: auto;
+        padding: 0 1em;
+        margin-bottom: -.9em;
+
+        img {
+            width: 100%;
+        }
     }
 
     margin: auto;
