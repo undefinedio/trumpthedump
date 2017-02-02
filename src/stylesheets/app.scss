@@ -1,8 +1,58 @@
 @import "normalize";
 
+/*--- Font-face ---*/
+@font-face {
+    font-family: 'MetaNormalRegular';
+    src: url('/fonts/meta-normal-regular-webfont.eot');
+    src: url('/fonts/meta-normal-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/meta-normal-regular-webfont.woff') format('woff'),
+    url('/fonts/meta-normal-regular-webfont.ttf') format('truetype'),
+    url('/fonts/meta-normal-regular-webfont.svg#MetaNormalRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetaMediumRegular';
+    src: url('/fonts/meta-medium-regular-webfont.eot');
+    src: url('/fonts/meta-medium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/meta-medium-regular-webfont.woff') format('woff'),
+    url('/fonts/meta-medium-regular-webfont.ttf') format('truetype'),
+    url('/fonts/meta-medium-regular-webfont.svg#MetaMediumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetaBoldRegular';
+    src: url('/fonts/meta-bold-regular-webfont.eot');
+    src: url('/fonts/meta-bold-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/meta-bold-regular-webfont.woff') format('woff'),
+    url('/fonts/meta-bold-regular-webfont.ttf') format('truetype'),
+    url('/fonts/meta-bold-regular-webfont.svg#MetaBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     height: 100vh;
     overflow: hidden;
+    font-family: 'MetaBoldRegular', sans-serif;
+}
+
+header {
+    .logo {
+        position: relative;
+        margin: auto;
+        height: 70px;
+        display: block;
+        margin-top: 20px;
+    }
+
+    margin: auto;
+    text-align: center;
+
+    border-bottom: 3px solid #891920;
 }
 
 .container {
