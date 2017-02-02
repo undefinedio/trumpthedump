@@ -1,3 +1,12 @@
-import './modules'
+let active = 1;
+let max = 4;
 
-console.log(`app.js has loaded!`)
+$('button').on('click', () => {
+    $(`img:nth-child(${active})`).addClass('outro');
+active++;
+$(`img:nth-child(${active})`).addClass('intro');
+
+if(active === max) {
+    // show final img
+}
+});
